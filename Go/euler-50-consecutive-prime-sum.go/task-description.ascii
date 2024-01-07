@@ -1,0 +1,49 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 50
+
+****
+Euler problem 50: https://projecteuler.net/problem=50[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Consecutive Prime Sum
+****
+The prime $41$ can be written as the sum of six consecutive primes.
+
+                $41 = 2 + 3 + 5 + 7 + 11 + 13$ 
+
+This is the longest sum of consecutive primes that adds to a prime below $100$.
+The longest sum of consecutive primes below $1000$ that adds to a prime contains $21$ terms and is equal to $953$.
+
+****
+
+.Task
+****
+Write a Go script called `euler-50-consecutive-prime-sum.go` which outputs the prime number which can be written as longest sum of consecutive primes below $n$.
+****
+
+
+
+.Example invocation
+----
+$ go run euler-50-consecutive-prime-sum.go 1000
+----
+
+.Example standard output
+----
+The largest consecutive prime sum below 1000 is 953
+----
+
+.Explanation
+****
+The largest prime number which can be written as a sum of consecutive primes below $1000$ is $953$.
+****

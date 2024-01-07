@@ -1,0 +1,62 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 196
+
+****
+Euler problem 191: https://projecteuler.net/problem=196[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Prime Triplets
+****
+Build a triangle from all positive integers in the following manner:
+----
+1
+2  3
+4  5  6
+7  8  9  10
+11 12 13 14 15
+16 17 18 19 20 21
+22 23 24 25 26 27 28
+29 30 31 32 33 34 35 36
+37 38 39 40 41 42 43 44 45
+46 47 48 49 50 51 52 53 54 55
+56 57 58 59 60 61 62 63 64 65 66
+. . .
+----
+Each positive integer in the triangle has up to eight neighbours.
+A set of three primes is called a prime triplet if one of the three primes has the other two as neighbours in the triangle.
+For example, in row $2$, the prime numbers $2$ and $3$ are elements of some prime triplet, i.e. $2, 3, 5$.
+If we look at row $8$, it contains two primes which are elements of some prime triplet, i.e. $29$ and $31$.
+
+We define $S(n)$ as a function which sums the primes in row $n$ which are elements of any prime triplet.
+E.g., $S(8) = 60$.
+****
+
+.Task
+****
+Write a Go script called `euler-196-prime-triplets.go` which outputs $S(n)$, where $n$ is our input.
+****
+
+.Example invocation
+----
+$ go run euler-196-prime-triplets.go 10000
+----
+
+.Example standard output
+----
+950007619
+----
+
+.Explanation
+****
+The sum of each prime number in row $10000$ that are part of any prime triplet is $950007619$.
+****

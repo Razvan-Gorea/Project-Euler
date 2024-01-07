@@ -1,0 +1,46 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 121
+
+****
+Euler problem 121: https://projecteuler.net/problem=121[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Java
+
+.Disc Game Prize Fund
+****
+A bag contains one red disc and one blue disc. In a game of chance a player takes a disc at random and its colour is noted. After each turn the disc is returned to the bag, an extra red disc is added, and another disc is taken at random.
+The player pays $£1$ to play and wins if they have taken more blue discs than red discs at the end of the game.
+If the game is played for $4$ turns, the probability of a player winning is exactly $11/120$, and so the maximum prize fund the banker should allocate for winning in this game would be £10 before they would expect to incur a loss. 
+Note that any payout will be a whole number of pounds and also includes the original $£1$ paid to play the game, so in the example given the player actually wins $£9$.
+****
+
+.Task
+****
+Write a Java script called `euler_121_disc_game_prize_fund.java` which find the maximum prize fund that should be allocated to a single game in which $n$ turns are played.
+****
+
+
+
+.Example invocation
+----
+$ java euler_121_disc_game_prize_fund 10
+----
+
+.Example standard output
+----
+Maximum prize fund for a 10 turn game: £225
+----
+
+.Explanation
+****
+The maximum prize fund that should be allocated to a single game in which $10$ turns are played is $£225$.
+****

@@ -1,0 +1,48 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 77
+
+****
+Euler problem 77: https://projecteuler.net/problem=77[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Java
+
+.Prime Summations
+****
+It is possible to write ten as the sum of primes in exactly $5$ different ways.
+$7 + 3$
+$5 + 5$
+$5 + 3 + 2$
+$3 + 3 + 2 + 2$
+$2 + 2 + 2 + 2 + 2$
+****
+
+.Task
+****
+Write a Java script called `euler_77_prime_summations.java` which outputs the first sum of primes which can be written in over $n$ different ways.
+****
+
+
+
+.Example invocation
+----
+$ java euler_77_prime_summations 1000
+----
+
+.Example standard output
+----
+53 is the first value of the sum of primes in over 1000 different ways.
+----
+
+.Explanation
+****
+The first sum of prime numbers that can be written $1000$ different ways is $53$.
+****

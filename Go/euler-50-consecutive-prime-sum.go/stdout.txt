@@ -1,0 +1,12 @@
+$ go run euler-50-consecutive-prime-sum.go 0
+Input must be greater than 1!
+$ go run euler-50-consecutive-prime-sum.go 100
+The largest consecutive prime sum below 100 is 41
+$ go run euler-50-consecutive-prime-sum.go 1000
+The largest consecutive prime sum below 1000 is 953
+$ go run euler-50-consecutive-prime-sum.go 10000
+The largest consecutive prime sum below 10000 is 9521
+$ go run euler-50-consecutive-prime-sum.go 100000
+The largest consecutive prime sum below 100000 is 92951
+$ go run euler-50-consecutive-prime-sum.go 1000000
+The largest consecutive prime sum below 1000000 is 997651

@@ -1,0 +1,22 @@
+$ go run euler-41-pandigital-prime.go 0
+Input must be larger than 0.
+$ go run euler-41-pandigital-prime.go 1
+The largest 1 digit pandigital prime is 1
+$ go run euler-41-pandigital-prime.go 2
+There is no 2 digit pandigital prime.
+$ go run euler-41-pandigital-prime.go 3
+There is no 3 digit pandigital prime.
+$ go run euler-41-pandigital-prime.go 4
+The largest 4 digit pandigital prime is 4231
+$ go run euler-41-pandigital-prime.go 5
+There is no 5 digit pandigital prime.
+$ go run euler-41-pandigital-prime.go 6
+There is no 6 digit pandigital prime.
+$ go run euler-41-pandigital-prime.go 7
+The largest 7 digit pandigital prime is 7652413
+$ go run euler-41-pandigital-prime.go 8
+There is no 8 digit pandigital prime.
+$ go run euler-41-pandigital-prime.go 9
+There is no 9 digit pandigital prime.
+$ go run euler-41-pandigital-prime.go 10
+Input must be less than 10.

@@ -1,0 +1,18 @@
+$ java euler_35_circular_primes 0
+Input must be greater than 0!
+$ java euler_35_circular_primes 10
+There are 4 circular primes below 10
+$ java euler_35_circular_primes 100
+There are 13 circular primes below 100
+$ java euler_35_circular_primes 500
+There are 20 circular primes below 500
+$ java euler_35_circular_primes 1000
+There are 25 circular primes below 1000
+$ java euler_35_circular_primes 5000
+There are 29 circular primes below 5000
+$ java euler_35_circular_primes 10000
+There are 33 circular primes below 10000
+$ java euler_35_circular_primes 100000
+There are 43 circular primes below 100000
+$ java euler_35_circular_primes 1000000
+There are 55 circular primes below 1000000

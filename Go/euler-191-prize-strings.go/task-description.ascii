@@ -1,0 +1,51 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 191
+
+****
+Euler problem 191: https://projecteuler.net/problem=191[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Prize Strings
+****
+A particular school offers cash rewards to children with good attendance and punctuality. If they are absent for three consecutive days or late on more than one occasion then they forfeit their prize.
+During an $n$-day period a trinary string is formed for each child consisting of $L$'s (late), $O$'s (on time), and $A$'s (absent).
+
+Although there are $81$ trinary strings for a $4$-day period that can be formed, exactly $43$ strings would lead to a prize:
+----
+OOOO OOOA OOOL OOAO OOAA OOAL OOLO OOLA OAOO OAOA
+OAOL OAAO OAAL OALO OALA OLOO OLOA OLAO OLAA AOOO
+AOOA AOOL AOAO AOAA AOAL AOLO AOLA AAOO AAOA AAOL
+AALO AALA ALOO ALOA ALAO ALAA LOOO LOOA LOAO LOAA
+LAOO LAOA LAAO
+----
+****
+
+.Task
+****
+Write a Go script called `euler-191-prize-strings.go` which outputs the number of prize strings over an $n$-day period.
+****
+
+.Example invocation
+----
+$ go run euler-191-prize-strings.go 10
+----
+
+.Example standard output
+----
+There are 3536 prize strings that exist over a 10 day period.
+----
+
+.Explanation
+****
+There are $3536$ prize strings that exist over a $10$-day period.
+****

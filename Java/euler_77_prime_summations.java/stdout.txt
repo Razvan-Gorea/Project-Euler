@@ -1,0 +1,10 @@
+$ java euler_77_prime_summations 0
+0 is the first value of the sum of primes in over 0 different ways.
+$ java euler_77_prime_summations 100
+31 is the first value of the sum of primes in over 100 different ways.
+$ java euler_77_prime_summations 1000
+53 is the first value of the sum of primes in over 1000 different ways.
+$ java euler_77_prime_summations 10000
+80 is the first value of the sum of primes in over 10000 different ways.
+$ java euler_77_prime_summations 100000
+114 is the first value of the sum of primes in over 100000 different ways.

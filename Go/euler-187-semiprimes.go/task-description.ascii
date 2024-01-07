@@ -1,0 +1,45 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 187
+
+****
+Euler problem 187: https://projecteuler.net/problem=187[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Composite numbers
+****
+A composite number is a number which contains at least two prime factors. 
+For example,
+$15 = 3 \times 5$
+$9 = 3 \times 3$
+$12 = 2 \times 2 \times 3$
+****
+
+.Task
+****
+Write a Go script called `euler-187-semiprimes.go` which outputs the number of composite numbers below $n$ which have precisely two but not neccesarily distinct prime factors.
+****
+
+.Example invocation
+----
+$ go run euler-187-semiprimes.go 100000
+----
+
+.Example standard output
+----
+23378 semiprimes below 100000
+----
+
+.Explanation
+****
+There are $23378$ semiprimes below $100000$.
+****

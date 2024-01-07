@@ -1,0 +1,10 @@
+$ go run euler-191-prize-strings.go 0
+Input must be larger than 0!
+$ go run euler-191-prize-strings.go 1
+There are 3 prize strings that exist over a 1 day period.
+$ go run euler-191-prize-strings.go 10
+There are 3536 prize strings that exist over a 10 day period.
+$ go run euler-191-prize-strings.go 20
+There are 2947811 prize strings that exist over a 20 day period.
+$ go run euler-191-prize-strings.go 30
+There are 1918080160 prize strings that exist over a 30 day period.

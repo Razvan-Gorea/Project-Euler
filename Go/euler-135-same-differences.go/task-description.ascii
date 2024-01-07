@@ -1,0 +1,43 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 135
+
+****
+Euler problem 135: https://projecteuler.net/problem=135[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Same Differences
+****
+Given the positive integers, $x$, $y$, $z$, are consecutive terms of an arithmetic progression, the least value of the positive integer, $k$, for which the equation, $x^2 - y^2 - z^2 = k$, has exactly two solutions is $k = 27$:
+            $34^2 - 27^2 - 20^2  = 12^2 - 9^2 - 6^2 = 27$.
+It turns out that $k = 1155$ is the least value which has exactly ten solutions.
+****
+
+.Task
+****
+Write a Go script called `euler-135-same-differences.go` which outputs the amount of values of $k$ less than $n$ which have exactly ten distinct solutions, where $n$ is our input.
+****
+
+.Example invocation
+----
+$ go run euler-135-same-differences.go 10000
+----
+
+.Example standard output
+----
+There are 45 values less than 10000 that have exactly ten distinct solutions
+----
+
+.Explanation
+****
+There are $45$ values of $k$ less than $n$ that have exactly ten distinct solutions for the formula $x^2 - y^2 - z^2 = k$.
+****

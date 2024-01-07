@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 35
+
+****
+Euler problem 35: https://projecteuler.net/problem=35[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Circular primes
+****
+Circular primes are each prime number that remains prime through each circular rotation of its digits.
+E.g., $123$ has rotations $231$ and $312$
+****
+
+.Task
+****
+Write a Go script called `euler-35-circular-primes.go` which which outputs the number of circular primes below $n$.
+****
+
+.Example invocation
+----
+$ go run euler-35-circular-primes.go 100000
+----
+
+.Example standard output
+----
+The number of circular primes below 100000 is: 43
+----
+
+.Explanation
+****
+The number of circular primes below $100000$ is $43$.
+****

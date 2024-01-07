@@ -1,0 +1,12 @@
+$ go run euler-196-prime-triplets.go 0
+0
+$ go run euler-196-prime-triplets.go 2
+5
+$ go run euler-196-prime-triplets.go 8
+60
+$ go run euler-196-prime-triplets.go 9
+37
+$ go run euler-196-prime-triplets.go 100
+9938
+$ go run euler-196-prime-triplets.go 10000
+950007619

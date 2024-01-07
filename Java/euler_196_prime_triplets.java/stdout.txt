@@ -1,0 +1,12 @@
+$ java euler_196_prime_triplets 0
+Input must be greater than 0!
+$ java euler_196_prime_triplets 2
+5
+$ java euler_196_prime_triplets 8
+60
+$ java euler_196_prime_triplets 9
+37
+$ java euler_196_prime_triplets 100
+9938
+$ java euler_196_prime_triplets 10000
+950007619

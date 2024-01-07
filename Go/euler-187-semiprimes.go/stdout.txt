@@ -1,0 +1,12 @@
+$ go run euler-187-semiprimes.go 0
+Input must be greater than 0!
+$ go run euler-187-semiprimes.go 100
+34 semiprimes below 100
+$ go run euler-187-semiprimes.go 1000
+299 semiprimes below 1000
+$ go run euler-187-semiprimes.go 10000
+2625 semiprimes below 10000
+$ go run euler-187-semiprimes.go 100000
+23378 semiprimes below 100000
+$ go run euler-187-semiprimes.go 1000000
+210035 semiprimes below 1000000

@@ -1,0 +1,10 @@
+$ java euler_191_prize_strings 0
+Input must be greater than 0!
+$ java euler_191_prize_strings 1
+There are 3 prize strings that exist over a 1 day period.
+$ java euler_191_prize_strings 10
+There are 3536 prize strings that exist over a 10 day period.
+$ java euler_191_prize_strings 20
+There are 2947811 prize strings that exist over a 20 day period.
+$ java euler_191_prize_strings 30
+There are 1918080160 prize strings that exist over a 30 day period.

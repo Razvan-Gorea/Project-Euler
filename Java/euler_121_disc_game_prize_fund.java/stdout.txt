@@ -1,0 +1,14 @@
+$ java euler_121_disc_game_prize_fund 0
+Input must be greater than 0!
+$ java euler_121_disc_game_prize_fund 3
+Maximum prize fund for a 3 turn game: £3
+$ java euler_121_disc_game_prize_fund 5
+Maximum prize fund for a 5 turn game: £7
+$ java euler_121_disc_game_prize_fund 8
+Maximum prize fund for a 8 turn game: £70
+$ java euler_121_disc_game_prize_fund 10
+Maximum prize fund for a 10 turn game: £225
+$ java euler_121_disc_game_prize_fund 12
+Maximum prize fund for a 12 turn game: £805
+$ java euler_121_disc_game_prize_fund 15
+Maximum prize fund for a 15 turn game: £2269

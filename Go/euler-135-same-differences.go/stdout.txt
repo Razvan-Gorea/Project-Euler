@@ -1,0 +1,10 @@
+$ go run euler-135-same-differences.go 0
+There are 0 values less than 0 that have exactly ten distinct solutions
+$ go run euler-135-same-differences.go 10000
+There are 45 values less than 10000 that have exactly ten distinct solutions
+$ go run euler-135-same-differences.go 100000
+There are 565 values less than 100000 that have exactly ten distinct solutions
+$ go run euler-135-same-differences.go 1000000
+There are 4989 values less than 1000000 that have exactly ten distinct solutions
+$ go run euler-135-same-differences.go 100000000
+There are 388403 values less than 100000000 that have exactly ten distinct solutions

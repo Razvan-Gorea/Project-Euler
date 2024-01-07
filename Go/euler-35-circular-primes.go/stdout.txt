@@ -1,0 +1,19 @@
+$ go run euler-35-circular-primes.go 0
+Please input a number above 0
+The number of circular primes below 0 is: 4
+$ go run euler-35-circular-primes.go 10
+The number of circular primes below 10 is: 4
+$ go run euler-35-circular-primes.go 100
+The number of circular primes below 100 is: 13
+$ go run euler-35-circular-primes.go 500
+The number of circular primes below 500 is: 20
+$ go run euler-35-circular-primes.go 1000
+The number of circular primes below 1000 is: 25
+$ go run euler-35-circular-primes.go 5000
+The number of circular primes below 5000 is: 29
+$ go run euler-35-circular-primes.go 10000
+The number of circular primes below 10000 is: 33
+$ go run euler-35-circular-primes.go 100000
+The number of circular primes below 100000 is: 43
+$ go run euler-35-circular-primes.go 1000000
+The number of circular primes below 1000000 is: 55

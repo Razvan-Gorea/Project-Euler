@@ -1,0 +1,43 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 642
+
+****
+Euler problem 642: https://projecteuler.net/problem=642[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Java
+
+.Sum of Largest Prime Factors
+****
+Let $f(i)$ be a function which equates to the largest prime factor of $i$.
+Let $F(n)$ be the sum of each $f(i)$ for $ 2 \le i \ge n$.
+For example, $F(10) = 32$.
+****
+
+.Task
+****
+Write a Java script called `euler_642_sum_of_largest_prime_factors.java` which outputs $F(n) % 1000000000$, where $n$ is our input.
+****
+
+.Example invocation
+----
+$ java euler_642_sum_of_largest_prime_factors 10000
+----
+
+.Example standard output
+----
+10118280
+----
+
+.Explanation
+****
+$10118280$ is the sum of each number's largest prime factor below $10000$, modulus $1000000000$.
+****

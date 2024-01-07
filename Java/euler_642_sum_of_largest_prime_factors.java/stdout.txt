@@ -1,0 +1,12 @@
+$ java euler_642_sum_of_largest_prime_factors 0
+0
+$ java euler_642_sum_of_largest_prime_factors 100
+1915
+$ java euler_642_sum_of_largest_prime_factors 1000
+135946
+$ java euler_642_sum_of_largest_prime_factors 10000
+10118280
+$ java euler_642_sum_of_largest_prime_factors 100000
+793111753
+$ java euler_642_sum_of_largest_prime_factors 1000000
+512813822

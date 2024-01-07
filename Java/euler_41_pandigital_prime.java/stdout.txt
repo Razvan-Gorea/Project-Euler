@@ -1,0 +1,10 @@
+$ java euler_41_pandigital_prime 0
+Input must be greater than 0!
+$ java euler_41_pandigital_prime 3
+There is no 3 digit pandigital prime.
+$ java euler_41_pandigital_prime 4
+The largest 4 digit pandigital prime is 4231
+$ java euler_41_pandigital_prime 6
+There is no 6 digit pandigital prime.
+$ java euler_41_pandigital_prime 7
+The largest 7 digit pandigital prime is 7652413

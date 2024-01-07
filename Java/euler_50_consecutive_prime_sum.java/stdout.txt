@@ -1,0 +1,8 @@
+$ java euler_50_consecutive_prime_sum 0
+Input must be greater than 1!
+$ java euler_50_consecutive_prime_sum 100
+The largest consecutive prime sum below 100 is 41
+$ java euler_50_consecutive_prime_sum 1000
+The largest consecutive prime sum below 1000 is 953
+$ java euler_50_consecutive_prime_sum 10000
+The largest consecutive prime sum below 10000 is 9521

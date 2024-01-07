@@ -1,0 +1,42 @@
+////
+The format of this document is `asciidoc`, and it will be compiled with:
+
+   $ asciidoctor task-description.ascii
+
+This generates the HTML which will be included on the website.
+////
+
+= Euler 41
+
+****
+Euler problem 41: https://projecteuler.net/problem=41[].
+****
+
+// //////////////////////////////////////////////////////////////
+== Go
+
+.Pandigital numbers
+****
+A number is said to be pandigital when it makes use of all the digits $1$ to $n$ exactly once. 
+For example, $2143$ is a $4$-digit pandigital which is also prime.
+****
+
+.Task
+****
+Write a Go script called `euler-41-pandigital-primes.go` which which outputs the largest $n$-digit 'pandigital' number which is also prime.
+****
+
+.Example invocation
+----
+$ go run euler-41-pandigital-prime.go 7 
+----
+
+.Example standard output
+----
+The largest 7 digit pandigital prime is 7652413
+----
+
+.Explanation
+****
+The largest $7$ digit pandigital prime is $7652413$.
+****

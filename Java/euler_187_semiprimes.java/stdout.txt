@@ -1,0 +1,12 @@
+$ java euler_187_semiprimes 0
+Input must be greater than 0!
+$ java euler_187_semiprimes 100
+34 semiprimes below 100
+$ java euler_187_semiprimes 1000
+299 semiprimes below 1000
+$ java euler_187_semiprimes 10000
+2625 semiprimes below 10000
+$ java euler_187_semiprimes 100000
+23378 semiprimes below 100000
+$ java euler_187_semiprimes 1000000
+210035 semiprimes below 1000000

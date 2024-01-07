@@ -1,0 +1,10 @@
+$ java euler_135_same_differences 0
+There are 0 values less than 0 that have exactly ten distinct solutions
+$ java euler_135_same_differences 1000
+There are 0 values less than 1000 that have exactly ten distinct solutions
+$ java euler_135_same_differences 10000
+There are 45 values less than 10000 that have exactly ten distinct solutions
+$ java euler_135_same_differences 100000
+There are 565 values less than 100000 that have exactly ten distinct solutions
+$ java euler_135_same_differences 1000000
+There are 4989 values less than 1000000 that have exactly ten distinct solutions
