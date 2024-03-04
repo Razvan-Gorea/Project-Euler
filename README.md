@@ -50,3 +50,7 @@
 | **50** - Consecutive Prime Sum  | 5%                    |
 | **56** - Powerful Digit Sum | 5%                    |
 | **77** - Prime Summations     | 25%                    |
+
+This Repo contains solutions to certain Project Euler Problems. The solutions are available in Java and Go. Please attempt the questions yourself first and then look at the solutions! You don't achieve anything by copying the solution!
+
+Happy Coding!
